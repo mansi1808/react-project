@@ -44,3 +44,18 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+---
+
+## Demo app notes
+
+This repository contains the interview demo app implementing a small e-commerce flow with Redux Toolkit and Material UI.
+
+- Login test credentials: `kminchelle` / `0lelplR`
+- JWT store key: `jwt_token` in localStorage
+- Start locally: `npm install` then `npm start`
+
+## TODO / Improvements
+- Add tests and better error UI
+- Add product details page and user profile
+
