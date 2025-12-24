@@ -1,61 +1,45 @@
-# Getting Started with Create React App
+# react-ecommerce (Interview demo)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A small e-commerce demo app built with React, Redux Toolkit and Material UI. It was bootstrapped with Create React App for interview/demo purposes.
 
-## Available Scripts
+## Quick start
 
-In the project directory, you can run:
+1. Install dependencies:
 
-### `npm start`
+```bash
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Run locally:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm start
+```
 
-### `npm test`
+Open http://localhost:3000 to view the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- Product listing with categories and pagination
+- Wishlist, cart, and checkout flows (demo)
+- Redux Toolkit for state management
+- Material UI components and responsive layout
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
----
-
-## Demo app notes
-
-This repository contains the interview demo app implementing a small e-commerce flow with Redux Toolkit and Material UI.
+## Notes
 
 - Login test credentials: `kminchelle` / `0lelplR`
-- JWT store key: `jwt_token` in localStorage
-- Start locally: `npm install` then `npm start`
+- JWT key stored as `jwt_token` in localStorage
 
-## TODO / Improvements
-- Add tests and better error UI
-- Add product details page and user profile
+## Development
+
+- Use `npm test` to run tests.
+- Use `npm run build` to create a production build.
+
+## Contributing
+
+Contributions and improvements are welcome. Open an issue or a PR with a short description of the change.
+
+## License
+
+This repository is released under the MIT License. See `LICENSE` for details.
 
